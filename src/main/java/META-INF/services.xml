@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<serviceGroup>
+    <service name="FeedbackService">
+        <description>FeedbackService</description>
+        <parameter name="ServiceClass">net.service.FeedbackService</parameter>
+
+        <!--<module ref="soapmonitor"/>-->
+
+        <messageReceivers>
+            <messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-out"
+                             class="org.apache.axis2.rpc.receivers.RPCMessageReceiver"/>
+            <messageReceiver mep="http://www.w3.org/2004/08/wsdl/in-only"
+                             class="org.apache.axis2.rpc.receivers.RPCInOnlyMessageReceiver"/>
+        </messageReceivers>
+    </service>
+
+</serviceGroup>
