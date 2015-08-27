@@ -1,7 +1,7 @@
-package net.service;
+package net.ws.jaxws;
 
-import net.service.model.News;
-import net.service.model.Response;
+import net.ws.model.News;
+import net.ws.model.Response;
 
 import javax.jws.WebMethod;
 import javax.jws.WebParam;
@@ -19,8 +19,8 @@ public class NewsService {
     @WebMethod
     public Response push(@WebParam(name = "news") News news) {
         Response response = new Response();
-        response.setRetCode("111110");
-        response.setRetResult("Success!");
+        response.setRetCode("000001");
+        response.setRetResult("JAX-WS is Success!");
         return response;
     }
 

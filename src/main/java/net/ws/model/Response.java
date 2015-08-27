@@ -1,4 +1,4 @@
-package net.service.model;
+package net.ws.model;
 
 /**
  * <p/>

@@ -152,6 +152,13 @@
             <artifactId>jaxb-api</artifactId>
             <version>2.1</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.apache.cxf</groupId>
+            <artifactId>cxf-core</artifactId>
+            <version>3.0.6</version>
+        </dependency>
+
     </dependencies>
     <build>
         <finalName>axis2-ws</finalName>

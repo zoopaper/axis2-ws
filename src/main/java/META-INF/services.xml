@@ -3,7 +3,7 @@
 <serviceGroup>
     <service name="FeedbackService">
         <description>FeedbackService</description>
-        <parameter name="ServiceClass">net.service.FeedbackService</parameter>
+        <parameter name="ServiceClass">net.ws.axis2.FeedbackService</parameter>
 
         <!--<module ref="soapmonitor"/>-->
 

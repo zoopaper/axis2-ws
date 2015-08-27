@@ -1,7 +1,7 @@
-package net.service;
+package net.ws.axis2;
 
-import net.service.model.Feedback;
-import net.service.model.Response;
+import net.ws.model.Feedback;
+import net.ws.model.Response;
 
 /**
  * <p/>
@@ -13,7 +13,9 @@ public class FeedbackService {
 
     public Response resultFeedback(Feedback feedback) {
         Response response = new Response();
+        response.setRetCode("000001");
+        response.setRetResult("Axis2 is success !");
         return response;
     }
-    
+
 }
